@@ -3,7 +3,7 @@ const defaultTheme = {
 
     color: {
         primary: '#FCFCFC',
-        secondary: '#414141',
+        secondary: '#585858',
         unselected: '#A9A9A9',
     },
 
