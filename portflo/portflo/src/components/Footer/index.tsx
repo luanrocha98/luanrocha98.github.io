@@ -1,39 +1,41 @@
-import React, { useCallback, useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Context } from '../../context';
-import getContent from '../../utils/getContent';
+import useContent from '../../utils/useContent';
 
 import { StyledFooter, Name, SocialMedias, Text, Wrapper } from './styles';
 import SocialMedia from '../SocialMedia';
 import Container from '../Container';
+import { IContent } from '../../@types';
 
 const Footer: React.FC = () => {
-    const content = getContent();
+    const { content } = useContent();
     const context = useContext(Context);
 
-    const current_language = context!.state.language || content.language[0];
-
-    const getUsername = useCallback((): string => {
+    const getUsername = (content: IContent, current_language: string): string => {
         return content.username[current_language];
-    }, [content, current_language]);
+    };
 
-    const getTexts = useCallback((): string[] => {
+    const getTexts = (content: IContent, current_language: string): string[] => {
         return content.footer.content.map(text => text[current_language]);
-    }, [content, current_language]);
+    };
 
-    const getSocialText = useCallback((): string => {
+    const getSocialText = (content: IContent, current_language: string): string => {
         return content.footer.socialText[current_language];
-    }, [content, current_language]);
+    };
 
-    const [username, setUsername] = useState<string>(getUsername());
-    const [texts, setTexts] = useState<string[]>(getTexts());
-    const [socialText, setSocialText] = useState<string>(getSocialText());
+    const [username, setUsername] = useState<string>();
+    const [texts, setTexts] = useState<string[]>();
+    const [socialText, setSocialText] = useState<string>();
 
     useEffect(() => {
-        document.title = getUsername() || "Portflo";
-        setUsername(getUsername());
-        setTexts(getTexts());
-        setSocialText(getSocialText());
-    }, [context, getUsername, getTexts, getSocialText]);
+        if (!content)
+            return
+
+        const current_language = context!.state.language || content!.language[0];
+        setUsername(getUsername(content, current_language));
+        setTexts(getTexts(content, current_language));
+        setSocialText(getSocialText(content, current_language));
+    }, [context, content]);
 
     return (
         <Wrapper>
@@ -42,7 +44,7 @@ const Footer: React.FC = () => {
                     <div>
                         <Name>{username}</Name>
                         {
-                            texts.map((text, key) => (
+                            texts && texts.map((text, key) => (
                                 <Text key={key}>{text}</Text>
                             ))
                         }
@@ -51,7 +53,7 @@ const Footer: React.FC = () => {
                         <Text>{socialText}</Text>
                         <SocialMedias>
                             {
-                                Object.keys(content.social).map((platform, key) => (
+                                content && Object.keys(content.social).map((platform, key) => (
                                     <SocialMedia key={key} platform={platform} href={content.social[platform]} />
                                 ))
                             }

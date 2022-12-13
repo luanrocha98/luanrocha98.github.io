@@ -1,55 +1,58 @@
-import React, { useCallback, useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Context } from '../../context';
-import getContent from '../../utils/getContent';
+import useContent from '../../utils/useContent';
 import Link from '../Link';
 import Image from '../Image';
 
 import { StyledHeader, Name, Person, Nav, SocialMedias, Wrapper } from './styles';
 import SocialMedia from '../SocialMedia';
 import Container from '../Container';
+import { IContent } from '../../@types';
 
 const Header: React.FC = () => {
-    const content = getContent();
+    const { content } = useContent();
     const context = useContext(Context);
 
-    const current_language = context!.state.language || content.language[0]
-
-    const getUsername = useCallback((): string => {
+    const getUsername = (content: IContent, current_language: string): string => {
         return content.username[current_language];
-    }, [content, current_language])
+    };
 
-    const getPages = useCallback((): [string, string][] => {
+    const getPages = (content: IContent, current_language: string): [string, string][] => {
         return Object.keys(content.page).map(url => [url, content.page[url].title[current_language]])
-    }, [content, current_language])
+    };
 
-    const [username, setUsername] = useState<string>(getUsername())
-    const [pages, setPages] = useState<[string, string][]>(getPages())
+    const [username, setUsername] = useState<string>()
+    const [pages, setPages] = useState<[string, string][]>()
 
     useEffect(() => {
-        document.title = getUsername() || "Portflo";
-        setUsername(getUsername());
-        setPages(getPages());
-    }, [context, getUsername, getPages]);
+        if (!content)
+            return
+
+        const current_language = context!.state.language || content!.language[0];
+        document.title = getUsername(content, current_language) || "Portflo";
+        setUsername(getUsername(content, current_language));
+        setPages(getPages(content, current_language));
+    }, [context, content]);
 
     return (
         <Wrapper>
             <Container>
                 <StyledHeader>
                     <Person>
-                        <Image round={content.icon.round} src={content.icon.source} width="3rem" height="3rem" />
+                        <Image round={content && content.icon.round} src={content && content.icon.source} width="3rem" height="3rem" />
                         <Name>{username}</Name>
                     </Person>
                     <Nav>
                         {
-                            pages.map(([url, title], key) => (
+                            pages && pages.map(([url, title], key) => (
                                 <Link key={key} to={url}>{title}</Link>
                             ))
                         }
                     </Nav>
                     <SocialMedias>
                         {
-                            Object.keys(content.social).map((platform, key) => (
-                                <SocialMedia key={key} platform={platform} href={content.social[platform]} />
+                            content && Object.keys(content.social).map((platform, key) => (
+                                <SocialMedia key={key} platform={platform} href={content!.social[platform]} />
                             ))
                         }
                     </SocialMedias>
