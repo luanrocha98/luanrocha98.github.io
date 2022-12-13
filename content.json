@@ -1,0 +1,366 @@
+{
+    "language": [
+        "pt"
+    ],
+    "username": {
+        "pt": "Luan Rocha"
+    },
+    "icon": {
+        "source": "iconProfile.png",
+        "round": true
+    },
+    "social": {
+        "linkedin": "https://www.linkedin.com/in/luanrocha98",
+        "behance": "https://behance.net/luanrocha98"
+    },
+    "footer": {
+        "content": [
+            {
+                "pt": "Natal, RN"
+            },
+            {
+                "pt": "Designer de Produto / Designer de Experiência"
+            },
+            {
+                "pt": "luanrocha98@gmail.com"
+            }
+        ],
+        "socialText": {
+            "pt": "Acompanhe meu trabalho!"
+        }
+    },
+    "empty": {
+        "pt": "Nada aqui por enquanto..."
+    },
+    "page": {
+        "": {
+            "title": {
+                "pt": "Projetos"
+            },
+            "columns": "2",
+            "content": {
+                "guia_indigena": {
+                    "title": {
+                        "pt": "Guia Indígena"
+                    },
+                    "thumbnail": "guia.png",
+                    "hover": true,
+                    "cover": {
+                        "source": "guia.png",
+                        "position": "right",
+                        "color": "#141414"
+                    },
+                    "expand": true,
+                    "subtitle": {},
+                    "description": {
+                        "pt": "Planejamento e prototipação de aplicativo em 2021"
+                    },
+                    "tags": [
+                        "productDesign",
+                        "userInterface",
+                        "userExperience"
+                    ],
+                    "content": [
+                        {
+                            "type": "image",
+                            "source": "Topo 2.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Slide 1 - Intro 1.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Slide 2 - Pesquisas 1.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Slide 3 - Insights 1.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Slide 4 - Usuários 1.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Slide 5 - Fluxo do User 1.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Slide 8 - WireFrames 1.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Slide 6 - Guia de Estilos 1.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Slide 11 - Protótipo 1.png"
+                        },
+                        {
+                            "type": "figma",
+                            "url": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FdO8rbNg49ZzK0RXCfW0vyX%2FGuia-Ind%25C3%25ADgena%3Fnode-id%3D698%253A217%26scaling%3Dscale-down%26page-id%3D698%253A216%26starting-point-node-id%3D698%253A217"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Slide 7 - Design de Telas 1.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Slide 9 - Resumo 1.png"
+                        }
+                    ]
+                },
+                "dailyfit": {
+                    "title": {
+                        "pt": "Dailyfit"
+                    },
+                    "thumbnail": "dailyfit.png",
+                    "hover": true,
+                    "cover": {
+                        "source": "dailyfit.png",
+                        "position": "right",
+                        "color": "#FFF"
+                    },
+                    "expand": true,
+                    "subtitle": {},
+                    "description": {
+                        "pt": "Planejamento e prototipação de aplicativo em 2022. Projeto feito de uma atividade de caso."
+                    },
+                    "tags": [
+                        "productDesign",
+                        "userInterface",
+                        "userExperience"
+                    ],
+                    "content": [
+                        {
+                            "type": "image",
+                            "source": "Capa 1.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Descrição 1.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Tarefa 1.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "image 14.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Tarefas do APP 1.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Fluxo do Usuario 1.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Guia de Estilos 1.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Design de Telas 1.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "image 15.png"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Protótipo Interativo 1.png"
+                        },
+                        {
+                            "type": "figma",
+                            "url": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FrwnBlQ3BMXjh9KBVaz2xQS%2FDailyfit%3Fnode-id%3D430%253A662%26scaling%3Dscale-down%26page-id%3D25%253A14%26starting-point-node-id%3D430%253A662%26show-proto-sidebar%3D1"
+                        },
+                        {
+                            "type": "image",
+                            "source": "Resumo 1.png"
+                        }
+                    ]
+                },
+                "Ilustracoes": {
+                    "title": {
+                        "pt": "Ilustrações"
+                    },
+                    "thumbnail": "luan.png",
+                    "hover": true,
+                    "cover": {
+                        "source": "CapaIlustracoesCapaIlustracoes.png",
+                        "position": "right",
+                        "color": "#F45F6E"
+                    },
+                    "expand": true,
+                    "subtitle": {},
+                    "description": {
+                        "pt": "Ilustrações diversas que fiz por motivação própria. Sempre tive uma ligação sentimental pelos meus desenhos, por isso na maioria das vezes são pessoas próximas a mim. Meus melhores amigos. <3"
+                    },
+                    "tags": [
+                        "illustrator",
+                        "visualDesign"
+                    ],
+                    "content": [
+                        {
+                            "type": "image",
+                            "source": "56043698474275 1.png"
+                        },
+                        {
+                            "type": "text",
+                            "value": {
+                                "pt": "<br/>"
+                            }
+                        },
+                        {
+                            "type": "image",
+                            "source": "723cd498474275 1.png"
+                        },
+                        {
+                            "type": "text",
+                            "value": {
+                                "pt": "<br/>"
+                            }
+                        },
+                        {
+                            "type": "image",
+                            "source": "1c2ea798474275 1.png"
+                        },
+                        {
+                            "type": "text",
+                            "value": {
+                                "pt": "<br/>"
+                            }
+                        },
+                        {
+                            "type": "image",
+                            "source": "a0b8ee98474275 1.png"
+                        },
+                        {
+                            "type": "text",
+                            "value": {
+                                "pt": "<br/>"
+                            }
+                        },
+                        {
+                            "type": "image",
+                            "source": "6ea41d98474275 1.png"
+                        },
+                        {
+                            "type": "text",
+                            "value": {
+                                "pt": "<br/>"
+                            }
+                        },
+                        {
+                            "type": "image",
+                            "source": "a4b12298474275 1.png"
+                        },
+                        {
+                            "type": "text",
+                            "value": {
+                                "pt": "<br/>"
+                            }
+                        }
+                    ]
+                },
+                "taverna": {
+                    "title": {
+                        "pt": "Taverna Mística"
+                    },
+                    "thumbnail": "taverna.png",
+                    "hover": true,
+                    "cover": {
+                        "source": "Logo_Minimal_PNG2x.png",
+                        "position": "right",
+                        "color": "#1d0e2a"
+                    },
+                    "expand": true,
+                    "subtitle": {},
+                    "description": {},
+                    "tags": [],
+                    "content": [
+                        {
+                            "type": "image",
+                            "source": "1b73a798473889.60bf8afc70a63.png"
+                        },
+                        {
+                            "type": "text",
+                            "value": {
+                                "pt": "<br/>"
+                            }
+                        },
+                        {
+                            "type": "image",
+                            "source": "069ea998473889.5edd2fabbb4ec.jpg"
+                        },
+                        {
+                            "type": "text",
+                            "value": {
+                                "pt": "<br/>"
+                            }
+                        },
+                        {
+                            "type": "image",
+                            "source": "b1fb3c98473889.5ef3522533d1c.jpg"
+                        },
+                        {
+                            "type": "text",
+                            "value": {
+                                "pt": "<br/>"
+                            }
+                        },
+                        {
+                            "type": "image",
+                            "source": "55599698473889.5ef35225ac8ff.jpg"
+                        },
+                        {
+                            "type": "text",
+                            "value": {
+                                "pt": "<br/>"
+                            }
+                        },
+                        {
+                            "type": "image",
+                            "source": "1c448698473889.5edd2fabba40b.jpg"
+                        }
+                    ]
+                }
+            }
+        },
+        "sobre": {
+            "title": {
+                "pt": "Sobre"
+            },
+            "columns": "2",
+            "content": {
+                "": {
+                    "title": {},
+                    "thumbnail": "image 6AboutMe.png",
+                    "hover": false,
+                    "cover": {},
+                    "expand": false,
+                    "subtitle": {},
+                    "description": {},
+                    "tags": [],
+                    "content": []
+                },
+                "-": {
+                    "title": {
+                        "pt": "<h1>Sobre mim</h1><h4><br/>Apaixonado pela arte e pelas pessoas.<br/>Sou um artista nascido em Natal, Rio Grande do Norte.<br/><br/><br/> Sempre fui apaixonado por elementos visuais desde pequeno.<br/><br/>Na minha graduação de Tecnologia da Informação, aprendi muito sobre desenvolvimento de projetos e planejamento. Aprendi também em vários projetos sobre produção visual e ilustração.<br/><br/>Estudo muito sobre UX/UI Design, área que trabalho atualmente, onde consigo unir meu interesse por tecnologia, arte e pessoas na mesma profissão.<br/><br/><br/><br/><br/>Você pode ver todo meu trabalho acadêmico e profissional no <a href='https://www.linkedin.com/in/luanrocha98' target='_blank'>Linkedin</h4>"
+                    },
+                    "thumbnail": "",
+                    "hover": false,
+                    "cover": {},
+                    "expand": false,
+                    "subtitle": {},
+                    "description": {},
+                    "tags": [],
+                    "content": []
+                }
+            }
+        }
+    }
+}
