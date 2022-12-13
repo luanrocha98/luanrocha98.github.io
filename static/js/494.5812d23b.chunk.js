@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportflo=self.webpackChunkportflo||[]).push([[494],{2494:function(e,s,f){e.exports=f.p+"static/media/Slide 2 - Pesquisas 1.f58a505f2fba2ee974e3.png"}}]);

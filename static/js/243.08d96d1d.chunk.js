@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportflo=self.webpackChunkportflo||[]).push([[243],{2243:function(e,p,s){e.exports=s.p+"static/media/Slide 9 - Resumo 1.266889ad68a1c85bbd25.png"}}]);

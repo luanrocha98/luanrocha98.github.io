@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportflo=self.webpackChunkportflo||[]).push([[379],{6379:function(e,o,p){e.exports=p.p+"static/media/Slide 5 - Fluxo do User 1.1f355c209cbd5122825a.png"}}]);

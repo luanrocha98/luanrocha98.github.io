@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportflo=self.webpackChunkportflo||[]).push([[755],{6755:function(e,o,p){e.exports=p.p+"static/media/Logo_Minimal_PNG2x.a2c6ff244a39e808d137.png"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportflo=self.webpackChunkportflo||[]).push([[921],{9921:function(e,p,s){e.exports=s.p+"static/media/Slide 8 - WireFrames 1.4648c1220156ed424d6a.png"}}]);

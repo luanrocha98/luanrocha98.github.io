@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportflo=self.webpackChunkportflo||[]).push([[202],{9202:function(f,e,a){f.exports=a.p+"static/media/Tarefas do APP 1.5dac4bff2228ba7fbef2.png"}}]);

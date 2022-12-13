@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportflo=self.webpackChunkportflo||[]).push([[881],{3881:function(a,e,p){a.exports=p.p+"static/media/Tarefa 1.4a1fdc8c2bb20926a4b1.png"}}]);

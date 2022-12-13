@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportflo=self.webpackChunkportflo||[]).push([[493],{8617:function(e,s,t){e.exports=t.p+"static/media/Slide 6 - Guia de Estilos 1.63cf6248779ab57bb0a3.png"}}]);

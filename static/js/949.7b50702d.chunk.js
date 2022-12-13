@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportflo=self.webpackChunkportflo||[]).push([[949],{2949:function(e,t,f){e.exports=f.p+"static/media/tavernalogo.caee23f0eff5ee77e582.png"}}]);

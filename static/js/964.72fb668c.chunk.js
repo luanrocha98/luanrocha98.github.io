@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportflo=self.webpackChunkportflo||[]).push([[964],{8964:function(e,p,s){e.exports=s.p+"static/media/Descri\xe7\xe3o 1.ba2b68368135561347ae.png"}}]);
